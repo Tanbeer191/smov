@@ -10,9 +10,57 @@
       "body": "Il est impossible de demander un film ou une série, car sudo-flix ne gère aucun contenu. Le contenu est récupéré en explorant d'autres sites sur Internet.",
       "title": "Où puis-je demander une série ou un film ?"
     },
-    "q3": {
-      "body": "Nos résultats de recherche sont alimentés par The Movie Database (TMDB) et s'affichent indépendamment de la disponibilité réelle du contenu dans nos sources.",
-      "title": "Les résultats de la recherche affichent la série ou le film, pourquoi ne puis-je pas le lire ?"
+    "auth": {
+        "createAccount": "N'avez-vous pas encore de compte ? <0>Créer un compte.</0>",
+        "deviceNameLabel": "Nom de l'appareil",
+        "deviceNamePlaceholder": "Téléphone personnel",
+        "generate": {
+            "description": "Le nom d'utilisateur et le mot de passe sont obtenus à partir de votre phrase d'accès. Vous devrez la saisir pour accéder à votre compte, alors gardez-la précieusement <bold>Ne perdez pas votre phrase d'accès !</bold>",
+            "next": "J'ai sauvegardé ma phrase d'accès",
+            "passphraseFrameLabel": "Phrase d'accès",
+            "title": "Votre phrase d'accès"
+        },
+        "hasAccount": "Avez-vous déjà un compte ? <0>Connectez-vous ici.</0>",
+        "login": {
+            "description": "Veuillez saisir votre phrase d'accès pour accéder à votre compte",
+            "deviceLengthError": "Veuillez saisir un nom d'appareil",
+            "passphraseLabel": "Phrase d'accès de 12 mots",
+            "passphrasePlaceholder": "Phrase d'accès",
+            "submit": "Se connecter",
+            "title": "Connectez-vous à votre compte",
+            "validationError": "Phrase d'accès incorrecte ou incomplète"
+        },
+        "register": {
+            "information": {
+                "color1": "Première couleur de profil",
+                "color2": "Seconde couleur de profil",
+                "header": "Veuillez entrer un nom pour votre appareil, choisir vos couleurs et une icône utilisateur de votre choix !",
+                "icon": "Icône d'utilisateur",
+                "next": "Suivant",
+                "title": "Informations du compte"
+            }
+        },
+        "trust": {
+            "failed": {
+                "text": "L'avez-vous configuré correctement ?",
+                "title": "Échec de la connexion au serveur"
+            },
+            "host": "Vous êtes en train de vous connecter à <0>{{hostname}}</0> - veuillez confirmer que vous lui faites confiance avant de créer un compte",
+            "no": "Retour",
+            "noHost": "Le serveur n'a pas été configuré, vous ne pouvez donc pas créer de compte",
+            "noHostTitle": "Serveur non configuré !",
+            "title": "Avez-vous confiance en ce serveur ?",
+            "yes": "Je fais confiance à ce serveur"
+        },
+        "verify": {
+            "description": "Veuillez saisir votre phrase d'accès pour confirmer que vous l'avez enregistrée et pour créer votre compte",
+            "invalidData": "Les données ne sont pas valides",
+            "noMatch": "La phrase d'accès ne correspond pas",
+            "passphraseLabel": "Votre phrase d'accès de 12 mots",
+            "recaptchaFailed": "La validation ReCaptcha a échoué",
+            "register": "Créer un compte",
+            "title": "Ressaisissez votre phrase d'accès"
+        }
     },
     "title": "À propos de sudo-flix",
     "q4": {
@@ -48,15 +96,55 @@
       "title": "Connectez-vous à votre compte",
       "validationError": "Phrase d'accès incorrecte ou incomplète"
     },
-    "register": {
-      "information": {
-        "color1": "Première couleur de profil",
-        "color2": "Seconde couleur de profil",
-        "header": "Veuillez entrer un nom pour votre appareil, choisir vos couleurs et une icône utilisateur de votre choix",
-        "icon": "Icône d'utilisateur",
-        "next": "Suivant",
-        "title": "Informations du compte"
-      }
+    "home": {
+        "bookmarks": {
+            "sectionTitle": "Favoris"
+        },
+        "continueWatching": {
+            "sectionTitle": "Reprendre la lecture"
+        },
+        "mediaList": {
+            "stopEditing": "Arrêter l'édition"
+        },
+        "search": {
+            "allResults": "C'est tout ce que nous avons !",
+            "failed": "Le média n'a pas été trouvé, veuillez réessayer !",
+            "loading": "Chargement...",
+            "noResults": "Nous n'avons rien trouvé !",
+            "placeholder": {
+                "default": "Que voulez-vous voir ?",
+                "extra": [
+                    "Que voulez-vous explorer ?",
+                    "Qu'y a-t-il dans votre liste de lecture ?",
+                    "Quel est votre film préféré ?",
+                    "Quelle est votre série préférée ?",
+                    "Que souhaitez-vous regarder aujourd'hui ?",
+                    "Comment s'est passé votre journée ?",
+                    "Désolé, le site ne fonctionne jamais..."
+                ]
+            },
+            "sectionTitle": "Résultats de la recherche"
+        },
+        "titles": {
+            "day": {
+                "default": "Que voulez-vous regarder cet après-midi ?",
+                "extra": [
+                    "Amoureux des films d'animation ? Suzume est un incontournable."
+                ]
+            },
+            "morning": {
+                "default": "Que voulez-vous regarder ce matin ?",
+                "extra": [
+                    "Les films, c'est comme les voyages : ça nous ouvre l'esprit"
+                ]
+            },
+            "night": {
+                "default": "Que voulez-vous regarder ce soir ?",
+                "extra": [
+                    "À la recherche d'un bon film d'horreur à regarder ? J'ai entendu dire que Scream était bien."
+                ]
+            }
+        }
     },
     "trust": {
       "failed": {
